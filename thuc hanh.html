@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <style>
+    body{
+      background-color: #e7cea2;
+    }
+    h1{
+      background: #609884;
+      color: blue;
+    }
+    table td{
+      padding: 5px 10px;
+    }
+    input, textarea, select{
+      border: solid 1px #609884;
+      padding: 5px 20px;
+      width: 100%;
+    }
+    select{
+      width: 180px;
+    }
+    input[type="submit"]{
+      width: auto;
+      background: red;
+      color:#fff;
+
+    }
+  </style>
+</head>
+<body>
+<h1>ĐĂNG KÍ HỌC VIÊN</h1>
+<form method="post" action="url">
+  <table>
+    <tr>
+      <td>Họ và tên</td>
+      <td>
+        <input type="text" value="" name="name"/>
+      </td>
+    </tr>
+    <tr>
+      <td>Ngàyb sinh</td>
+      <td>
+        <input type="text" value="" name="email"/>
+      </td>
+    </tr>
+    <tr>
+      <td>Nội dung</td>
+      <td>
+        <textarea cols="30" rows="10" name="content"></textarea>
+      </td>
+    </tr>
+    <tr>
+      <td>Gửi đến</td>
+      <td>
+        <select name="department">
+          <option>Phòng kế hoạch</option>
+          <option>Phòng tài chính</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>
+        <input type="submit" value="Gửi feedback"/>
+      </td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>
